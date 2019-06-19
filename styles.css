@@ -1,0 +1,34 @@
+*{
+ margin: 0; padding:0; box-sizing: border-box;
+}
+h1{
+font-family: 'Encode Sans Expanded', sans-serif;
+text-align: center;
+background-color: #FFC800;
+border: 3px solid black;
+padding: 15px;}
+
+h5{
+font-family: 'Encode Sans Expanded', sans-serif;
+text-align: center;
+background-color: #ABAA71;
+border: 3px solid black;
+padding: 5px;
+}
+
+.pictures{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E6DEC3;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+img{
+   height: 400px;
+   width:400px;
+   object-fit: scale-down;
+}
+body{ background-color:#0D00FF}
+@media screen and (max-width 900px){img{flex-direction: column}}
+ 
